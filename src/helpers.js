@@ -32,17 +32,6 @@ function hitungDiskon(price, qty, kode) {
             hasilDiskon = 0;
             break;
     }
-    // if (kode == "KODE25") {
-    //     hasilDiskon = subTotal * 0.25;
-    // } else if (kode == "KODE10") {
-    //     hasilDiskon = subTotal * 0.10;
-    // } else if (kode == "KODE50") {
-    //     hasilDiskon = subTotal * 0.50;
-    // } else if (kode == "PELANGGAN1JT") {
-    //     hasilDiskon = subTotal * 0.40;
-    // } else {
-    //     hasilDiskon = 0;
-    // }
     return hasilDiskon;
 }
 
